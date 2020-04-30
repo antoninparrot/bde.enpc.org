@@ -1,0 +1,13 @@
+Sitemap: https://bde.enpc.org/sitemap.xml
+User-agent: *
+Disallow: /*.jpg$
+Disallow: /*.png$
+Disallow: /*.gif$
+Disallow: /*.jpeg$
+Disallow: /images/
+Disallow: /layout/
+Disallow: /403.html
+Disallow: /404.html
+Allow: /
+User-agent: Googlebot-Image
+Disallow: /

@@ -1,0 +1,79 @@
+ .modal {
+z-index:1;
+display:none;
+padding:5% 25%;
+position:fixed;
+left:0;
+top:0;
+width:100%;
+height:100%;
+overflow:auto;
+background-color:rgb(0,0,0);
+background-color:rgba(0,0,0,0.8);
+}
+
+.modal-content{
+  margin: auto;
+  display: block;
+  position: relative;
+  width: 50%;
+  height: 90%
+  
+}
+.close {
+text-decoration:none;float:right;font-size:24px;font-weight:bold;color:white
+}
+.container1 {
+width:200px;
+display:inline-block;
+}
+.modal-content, #caption {   
+  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* Modal Content */
+.modal-content-popup {
+  background-color: #fefefe;
+  display:block;
+  margin: auto;
+  position: absolute; 
+  padding: 20px;
+  border: 1px solid #888;
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+
+}
+
+/* The Close Button */
+.close-popup {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-popup:hover,
+.close-popup:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.noircir{
+  background-color: rgba(25,25,25,1);
+}
